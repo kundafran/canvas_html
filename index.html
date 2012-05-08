@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Reproductor de video</title>
+  <link rel="stylesheet" href="assets/reproductor.css">
+  <script src="assets/reproductor.js"></script>
+</head>
+<body>
+
+  <section id="videoreproductor" class="repro">
+    <video id="videomedio" width="720" height="400">
+      <source src="assets/trailer.mp4">
+      <source src="assets/trailer.ogg">
+    </video>
+    <nav>
+    	<div id="videobotones" class="boton">
+    		<button type="button" id="videoreproducir">Reproducir</button>
+    	</div>
+    	<div id="videobarra" class="barra">
+    		<div id="videoprogreso" class="progreso"></div>
+    	</div>
+    	<div style="clear: both"></div>
+    </nav>
+  </section>
+
+  <section id="audioreproductor" class="repro">
+    <audio id="audiomedio">
+      <source src="assets/beach.mp3">
+      <source src="assets/beach.ogg">
+    </audio>
+    <nav>
+      <div id="audiobotones" class="boton">
+        <button type="button" id="audioreproducir">Reproducir</button>
+      </div>
+      <div id="audiobarra" class="barra">
+        <div id="audioprogreso" class="progreso"></div>
+      </div>
+      <div style="clear: both"></div>
+    </nav>
+  </section>
+
+</body>
+</html>
